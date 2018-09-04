@@ -11,6 +11,10 @@ class ComposerStaticInita79259bedf517a92e96bb69408987a6c
     );
 
     public static $prefixLengthsPsr4 = array (
+        'f' => 
+        array (
+            'feather\\firstSlim\\' => 18,
+        ),
         'S' => 
         array (
             'Slim\\' => 5,
@@ -31,6 +35,10 @@ class ComposerStaticInita79259bedf517a92e96bb69408987a6c
     );
 
     public static $prefixDirsPsr4 = array (
+        'feather\\firstSlim\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',

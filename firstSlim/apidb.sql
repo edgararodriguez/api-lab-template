@@ -38,7 +38,7 @@ CREATE TABLE `Athletes` (
 
 LOCK TABLES `Athletes` WRITE;
 /*!40000 ALTER TABLE `Athletes` DISABLE KEYS */;
-INSERT INTO `Athletes` VALUES (1,'Lebron James','Basketball','None'),(2,'Odell Beckham Jr','Football','Basketball'),(3,'Josh Norman','Football','Coastal Carolina University'),(4,'Tom Brady','Football','Michagan');
+INSERT INTO `Athletes` VALUES (1,'Lebron James','Basketball','None'),(2,'Odell Beckham Jr','Football','LSU'),(3,'Josh Norman','Football','Coastal Carolina University'),(4,'Tom Brady','Football','Michagan');
 /*!40000 ALTER TABLE `Athletes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
