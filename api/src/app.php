@@ -88,7 +88,7 @@ class App
          $responseRecord = makeApiRequest('Athletes/'.$id);
          $templateVariables = [
            "type" => "edit",
-           "title" => "Edit User",
+           "title" => "Edit Athlete",
            "athlete" => $responseRecord
          ];
          return $this->renderer->render($response, "/AthletesEditForm.html", $templateVariables);
