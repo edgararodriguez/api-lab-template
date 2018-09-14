@@ -4,7 +4,22 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 </head>
-<script src="../public/script.js"></script>
+<script src="../../public/script.js"></script>
 
-<p>TODO: crete a form that edits the Athletes record passed into this file.
-Take a look at the AthletesForm.html file for inspiration, but make sure that the initial values are from the person object passed in.</p>
+<h1><?php echo $title; ?></h1>
+
+<form data-id="<?php echo $athlete['id'] ?>" id='AthletesEditForm'>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input name="name" type="text" class="form-control" id="name" value="<?php echo $athlete['name'] ?>">
+  </div>
+  <div class="form-group">
+    <label for="college">College</label>
+    <input name="college" type="text" class="form-control" id="college" value="<?php echo $athlete['college'] ?>">
+  </div>
+  <div class="form-group">
+    <label for="sport">Sport</label>
+    <input name="sport" type="text" class="form-control" id="sport" value="<?php echo $athlete['sport'] ?>">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
